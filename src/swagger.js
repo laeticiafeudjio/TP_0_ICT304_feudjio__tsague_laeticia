@@ -5,11 +5,13 @@ module.exports = {
     version: '1.0.0',
     description: 'Documentation Swagger pour le test logiciel de l’API bancaire',
   },
+// ✅ CODE CORRIGÉ (utilise Render)
   servers: [
     {
-      url: 'http://localhost:3000/api/v1',
-      description: 'Serveur local',
+      url: 'https://votre-service.onrender.com/api/v1',
+      description: 'Serveur Render',
     },
+   
   ],
   paths: {
     '/clients': {
